@@ -1,7 +1,9 @@
 {
-  // other settings...
   "compilerOptions": {
-    "jsx": "preserve",
+    "target": "ESNext",
+    "jsx": "react",
+    "outDir": "./dist",
+    "module": "commonjs",
     "esModuleInterop": true,
     "allowJs": true
   }
