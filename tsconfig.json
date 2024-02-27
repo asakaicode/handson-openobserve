@@ -1,0 +1,8 @@
+{
+  // other settings...
+  "compilerOptions": {
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "allowJs": true
+  }
+}
