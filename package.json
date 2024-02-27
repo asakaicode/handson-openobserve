@@ -1,0 +1,23 @@
+{
+  "name": "minified-app",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "ts-node --esm server/index.ts"
+  },
+  "dependencies": {
+    "@openobserve/browser-logs": "^0.2.11",
+    "@openobserve/browser-rum": "^0.2.11",
+    "@openobserve/pino-openobserve": "^0.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "pino": "^8.19.0",
+    "pino-elasticsearch": "^8.0.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
