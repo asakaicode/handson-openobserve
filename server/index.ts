@@ -8,14 +8,8 @@ process.on('unhandledRejection', (reason, p) => {
 })
 
 const options = {
-  clientToken: 'rum8GyDzI2t1i54HUjL',
-  applicationId: 'web-application-id',
   site: 'http://localhost:5080',
-  service: 'my-web-application',
-  env: 'production',
-  version: '0.0.1',
   organizationIdentifier: 'default',
-  apiVersion: 'v1',
 }
 
 const logger = pino({ level: 'info' }, new pinoOpenObserve({
