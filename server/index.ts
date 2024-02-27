@@ -10,7 +10,7 @@ process.on('unhandledRejection', (reason, p) => {
 const options = {
   clientToken: 'rum8GyDzI2t1i54HUjL',
   applicationId: 'web-application-id',
-  site: 'http://localhost:5081',
+  site: 'http://localhost:5080',
   service: 'my-web-application',
   env: 'production',
   version: '0.0.1',
@@ -36,7 +36,7 @@ void(() => {
     res.send('Hello World')
     logger.info({ log: "entry get hello", type: "GET", url: "/hello" })
   })
-  app.listen(5085, () => {
-    console.log('> Ready on http://localhost:5085')
+  app.listen(3020, () => {
+    console.log('> Ready on http://localhost:3020')
   })
 })()
