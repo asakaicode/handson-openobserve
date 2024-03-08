@@ -6,9 +6,7 @@ $ git clone git@github.com:asakaicode/handson-openobserve.git
 2. Docker imageをpullして、runをする
 ```shell
 $ mkdir data
-$ docker run -d -v $PWD/data:/data -e ZO_DATA_DIR="/data" -p 5080:5080 \
-    -e ZO_ROOT_USER_EMAIL="root@example.com" -e ZO_ROOT_USER_PASSWORD="Complexpass#123" \
-    public.ecr.aws/zinclabs/openobserve:latest
+$ docker-compose up -d
 ```
 3. http://localhost:5080にアクセスし、ログインする
    * メールアドレス：root@example.com
